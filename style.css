@@ -1,0 +1,74 @@
+
+body {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    line-height: 1.5;
+    background-image: radial-gradient(rgb(174, 4, 127), rgb(55, 0, 51) 70%);
+}
+
+.container {
+    max-width: 1500px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 15px 0;
+}
+.container {
+}
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 45px;
+}
+.logo {
+    width: 65px;
+}
+.menu {
+    display: flex;
+    gap: 45px;
+}
+.menu-item {
+}
+.menu-link {
+    font-weight: 600;
+}
+.header-media {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.instagram {
+}
+.tiktok {
+}
+.telegram {
+}
+.newbies {
+}
+.trial-lesson {
+}
+.ready {
+}
+.regi {
+}
+.button-regi {
+}
+.photo-scroll {
+}
+.invitation {
+}
+.letsgo {
+}
+.descrbtion {
+}
+.footer {
+}
+.info {
+}
