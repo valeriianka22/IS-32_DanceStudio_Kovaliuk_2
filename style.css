@@ -1,4 +1,10 @@
 
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Exo 2', sans-serif;
     font-weight: 700;
@@ -12,63 +18,159 @@ body {
 .container {
     max-width: 1500px;
     width: 100%;
-    padding: 0 15px;
+    padding: 0 5px;
     margin: 0 auto;
 }
 
 .header {
     padding: 15px 0;
 }
-.container {
-}
+
 .header-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 45px;
 }
+
 .logo {
     width: 65px;
+    
 }
+
 .menu {
     display: flex;
     gap: 45px;
 }
+
 .menu-item {
 }
+
 .menu-link {
     font-weight: 600;
+    color: white;
+    font-weight: 100;
 }
+
 .header-media {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .instagram {
+    padding: 0 5px;
+    width:45px;
+    display:inline-block;
+    -webkit-mask:url(image/instagram.png) center/contain no-repeat;
+            mask:url(image/instagram.png) center/contain no-repeat;
+    
+    background:url(image/color-pink.png) center/contain no-repeat;
+    /* background-blend-mode:darken; */
 }
+.instagram:before {
+    content:"";
+    display:block;
+    padding-top:100%;
+}
+
 .tiktok {
+    padding: 0 5px;
+    width:40px;
+    display:inline-block;
+    -webkit-mask:url(image/tiktok.png) center/contain no-repeat;
+            mask:url(image/tiktok.png) center/contain no-repeat;
+    
+    background:url(image/color-pink.png) center/contain no-repeat;
+    /* background-blend-mode:darken; */
 }
+.tiktok:before {
+    content:"";
+    display:block;
+    padding-top:100%;
+}
+
 .telegram {
+    padding: 0 5px;
+    width:40px;
+    display:inline-block;
+    -webkit-mask:url(image/tg.png) center/contain no-repeat;
+            mask:url(image/tg.png) center/contain no-repeat;
+    
+    background:url(image/color-pink.png) center/contain no-repeat;
+    /* background-blend-mode:darken; */
 }
+.telegram:before {
+    content:"";
+    display:block;
+    padding-top:100%;
+}
+
 .newbies {
+    height: 100vh;
 }
+
 .trial-lesson {
+    max-width: 800px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 400px;
 }
+
 .ready {
+    font-size: 40px;
+    font-weight: 900;
+    padding: 15px 0;
 }
+
+.big-arrow {
+    width: 220px;
+    transform: rotate(90deg);
+    padding: 45px 0;
+}
+
 .regi {
+    font-size: 20px;
+    max-width: 280px;
+    margin: 0 230px;
+    padding: 25px 0;
 }
+
 .button-regi {
+    background-color: #370033;
+    padding: 18px 120px;
+    color: white;
+    
 }
+
+.small-arrows {
+    padding: 55px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.small-arrow {
+    width: 60px;
+    height: 44px;
+    transform: rotate(270deg);
+}
+
 .photo-scroll {
 }
+
 .invitation {
 }
+
 .letsgo {
 }
+
 .descrbtion {
 }
+
 .footer {
 }
+
 .info {
 }
