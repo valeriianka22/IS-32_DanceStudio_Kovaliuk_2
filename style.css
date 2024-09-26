@@ -225,24 +225,8 @@ body {
     margin-bottom: 20px;
 }
 
-/* .footer {
-    background-image: url(image/разом\ футер.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.info {
-}
-
-.map {
-} */
-
 .footer {
-    padding: 20px 0; /* Відступи зверху та знизу */
+    padding: 20px 0; 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -250,7 +234,6 @@ body {
     overflow: hidden;
     min-height: 200px;
 }
-
 .footer::before {
     content: "";
     position: absolute;
@@ -278,8 +261,8 @@ body {
 }
 
 iframe {
-    border-radius: 5px; /* Зробимо кути карти округленими */
-    border: 0; /* Без рамки */
+    border-radius: 5px; 
+    border: 0; 
     width: 350px;
     height: 250px;
 }
