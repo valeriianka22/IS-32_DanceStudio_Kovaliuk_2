@@ -40,22 +40,42 @@ body {
 
 .menu {
     display: flex;
-    gap: 45px;
+    gap: 20px;
 }
 
 .menu-item {
 }
 
 .menu-link {
-    font-weight: 600;
     color: white;
     font-weight: 100;
+    text-decoration: none;
+    position: relative;
+    transition: background-color 0.3s, border 0.3s;
+    padding: 10px 15px; /* Додаємо відступи: верх/низ 10px, ліво/право 15px */
+}
+/* Стан при наведенні миші */
+.menu-link:hover {
+    background-color: rgba(174, 4, 127, 0.5); /* Легка тьмяна рожева заливка */
+    border-radius: 4px; /* Закруглення країв */
+}
+
+/* Стан при натисканні */
+.menu-link:active {
+    border: 2px solid black; /* Чорний контур при натисканні */
+    background-color: transparent; /*Без заливки*/
 }
 
 .header-media {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.header-media a {
+    cursor: pointer;
+}
+.header-media a:hover {
+    
 }
 
 .instagram {
@@ -143,6 +163,7 @@ body {
     padding: 18px 120px;
     color: white;
     border-radius: 50px;
+    text-decoration: none;
 }
 
 .small-arrows {
@@ -163,25 +184,30 @@ body {
     position: relative;
 }
 .wrapper i {
-    color: black;
+    color: rgb(174, 4, 127);
     top: 50%;
     height: 46px;
     width: 46px;
     cursor: pointer;
     position: absolute;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     text-align: center;
     line-height: 46px;
-    background: #fff;
+    background: none;
     border-radius: 50%;
     transform: translateY(-50%);
+    border: 2px solid rgb(174, 4, 127);
 }
 .wrapper i:first-child {
-    left: -23px;
+    left: -15px;
     display: none;
 }
 .wrapper i:last-child {
-    right: -23px;
+    right: -15px;
+}
+.wrapper i:hover {
+    color: white; 
+    background: rgb(174, 4, 127); 
 }
 .wrapper .carousel {
     font-size: 0px;
@@ -243,7 +269,7 @@ body {
     height: 100%;
     background: url('image/разом\ футер.jpeg') no-repeat center center;
     background-size: cover;
-    opacity: 0.2; /* Прозорість фону */
+    opacity: 0.2;
     z-index: 1; /* Фон позаду тексту */
 }
 

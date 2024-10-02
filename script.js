@@ -44,3 +44,61 @@
 // carousel.addEventListener("mousemove", dragging);
 // carousel.addEventListener("mouseup", dragStop);
 // carousel.addEventListener("mouseleave", dragStop);
+
+
+
+
+
+// document.addEventListener('DOMContentLoaded', () => {
+//     const carousel = document.querySelector('.carousel');
+//     const leftArrow = document.getElementById('left');
+//     const rightArrow = document.getElementById('right');
+//     const totalImages = carousel.children.length; // Get total number of images
+//     let currentIndex = 0; // Keep track of the current image index
+
+//     // Initially hide the left arrow
+//     leftArrow.style.display = 'none';
+
+//     // Scroll the carousel to the left
+//     leftArrow.addEventListener('click', () => {
+//         // Move to the left
+//         currentIndex--;
+//         carousel.scrollBy({
+//             left: -carousel.clientWidth / 3, // Adjust scroll amount as needed
+//             behavior: 'smooth'
+//         });
+
+//         // Update arrow visibility
+//         updateArrows();
+//     });
+
+//     // Scroll the carousel to the right
+//     rightArrow.addEventListener('click', () => {
+//         // Move to the right
+//         currentIndex++;
+//         carousel.scrollBy({
+//             left: carousel.clientWidth / 3, // Adjust scroll amount as needed
+//             behavior: 'smooth'
+//         });
+
+//         // Update arrow visibility
+//         updateArrows();
+//     });
+
+//     // Function to update arrow visibility
+//     function updateArrows() {
+//         // Show the left arrow if we are past the first image
+//         if (currentIndex > 0) {
+//             leftArrow.style.display = 'block';
+//         } else {
+//             leftArrow.style.display = 'none';
+//         }
+
+//         // Hide the right arrow if we are at the last image
+//         if (currentIndex >= totalImages - 3) { // Adjust based on visible images
+//             rightArrow.style.display = 'none';
+//         } else {
+//             rightArrow.style.display = 'block';
+//         }
+//     }
+// });
