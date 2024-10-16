@@ -35,7 +35,6 @@ body {
 
 .logo {
     width: 65px;
-    
 }
 
 .menu {
@@ -216,6 +215,7 @@ iframe {
 
 /*АДАПТАЦІЯ*/
 
+/*tablet*/
 @media (max-width: 992px) {
     body {
         background-image: radial-gradient(rgb(174, 4, 127), rgb(55, 0, 51) 75%);
@@ -231,6 +231,9 @@ iframe {
         display: block;
         z-index: 1;
     }
+    .logo {
+        width: 60px;
+    }
     .info {
         font-size: 14px;
     }
@@ -240,6 +243,7 @@ iframe {
     }
 }
 
+/*mobile*/
 @media (max-width: 576px) {
     body {
         background-image: radial-gradient(rgb(174, 4, 127), rgb(55, 0, 51) 80%);
@@ -250,6 +254,9 @@ iframe {
     }
     .header-media {
         display: none;
+    }
+    .logo {
+        width: 55px;
     }
     .footer {
         flex-direction: column;

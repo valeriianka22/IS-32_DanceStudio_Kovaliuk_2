@@ -204,10 +204,3 @@
         font-size: 12px;
     }
 }
-
-/*desktop*/
-@media (max-width: 1440px) {
-    /* .newbies {
-        height: calc(100vh - 100px);
-    } */
-}
